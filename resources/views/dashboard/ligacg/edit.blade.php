@@ -23,7 +23,7 @@
 
        <div class="mb-3">
             <label for="cicrle_group" class="form-label">Circle Group</label>
-            <select class="form-select" name="circle_group" id="circle_group" aria-label="Default select example">
+            <select class="form-select" name="circle_group" id="circle_group" value="{{ old('circle_group', $ligacg->circle_group) }}">
                 <option>Circle Group A</option>
                 <option>Circle Group B</option>
                 <option>Circle Group C</option>
@@ -35,7 +35,7 @@
 
        <div class="mb-3">
             <label for="jenis_taging" class="form-label">Jenis Taging</label>
-            <select class="form-select" name="jenis_taging" id="jenis_taging" aria-label="Default select example">
+            <select class="form-select" name="jenis_taging" id="jenis_taging" value="{{ old('jenis_taging', $ligacg->jenis_taging) }}">
                 <option>Taging Merah</option>
                 <option>Taging Hijau</option>
                 <option>Taging Kuning</option>

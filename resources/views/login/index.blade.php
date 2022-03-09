@@ -44,7 +44,7 @@
                     <label for="password">Password</label>
                 </div>
 
-                <button class="w-100 btn btn-lg btn-primary mt-4" type="submit">Login</button>
+                <button class="w-100 btn btn-lg btn-success mt-4" type="submit">Login</button>
             </form>
 
             <small class="d-block mt-3 text-center">Not registered? <a href="/register">Register Now!</a></small>
