@@ -18,7 +18,7 @@ class CreateLigacgTable extends Migration
             $table->string('employee');
             $table->string('circle_group');
             $table->string('jenis_taging');
-            $table->float('point');
+            $table->float('point', 8, 2);
             $table->timestamps();
         });
     }
